@@ -78,7 +78,7 @@
       "components": [
           {
               "title": "Text Input",
-              "id": "text",
+              "id": "textinput",
               "plugins": {
                 "xwalk": {
                   "page": {
