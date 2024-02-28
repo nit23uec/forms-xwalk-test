@@ -191,64 +191,64 @@
     "fields": [
         {
             "component": "text-input",
-            "name": "Name",
+            "name": "name",
             "label": "Name",
             "valueType": "string",
             "required": true
         },
         {
             "component": "text-input",
-            "name": "Label",
+            "name": "label",
             "label": "Label",
             "valueType": "string"
         },
         {
             "component": "text-input",
-            "name": "Description",
+            "name": "description",
             "label": "Description",
             "valueType": "string"
         },
         {
             "component": "text-input",
-            "name": "Placeholder",
+            "name": "placeholder",
             "label": "Placeholder",
             "valueType": "string"
         },
         {
             "component": "boolean",
-            "name": "Hidden",
-            "label": "Hidden",
+            "name": "visible",
+            "label": "Visible",
             "valueType": "boolean"
         },
         {
 
             "component": "boolean",
-            "name": "Read Only",
+            "name": "readOnly",
             "label": "Read Only",
             "valueType": "boolean"
         },
         {
             "component": "boolean",
-            "name": "Mandatory",
+            "name": "required",
             "label": "Required",
             "valueType": "boolean"
         },
         {
             "component": "text-input",
-            "name": "Value",
+            "name": "default",
             "label": "Default Value",
             "valueType": "string"
         },
         {
             "component": "number",
-            "name": "Min",
+            "name": "minimum",
             "label": "Minimum Value",
             "valueType": "number",
             "description": "Minimum length of the text in the field"
         },
         {
             "component": "number",
-            "name": "Max",
+            "name": "maximum",
             "label": "Maximum Value",
             "valueType": "number",
             "description": "Maximum length of the text in the field"
