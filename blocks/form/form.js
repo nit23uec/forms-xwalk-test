@@ -395,7 +395,7 @@ export default async function decorate(block) {
       formDef = JSON.parse(cleanUp(content));
     }
   }
-  let { rules, source } = { rules: true, source: 'aem' };
+  let { rules, source } = { rules: false, source: 'aem' };
   let form;
   if (formDef) {
     if (isDocumentBasedForm(formDef)) {
