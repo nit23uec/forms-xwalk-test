@@ -112,7 +112,7 @@
               "plugins": {
                 "xwalk": {
                   "page": {
-                    "resourceType": "core/franklin/components/formcomponent/v1/formcomponent",
+                    "resourceType": "fd/franklin/components/formcomponent/v1/formcomponent",
                     "template": {
                       "Label": "Number Input",
                       "Type": "number"
@@ -193,7 +193,7 @@
           "plugins": {
             "xwalk": {
               "page": {
-                "resourceType": "core/franklin/components/form/v1/form",
+                "resourceType": "fd/franklin/components/form/v1/form",
                 "template": {}
               }
             }
