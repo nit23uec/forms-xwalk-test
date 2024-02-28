@@ -80,7 +80,7 @@
               "title": "Text Input",
               "id": "text",
               "plugins": {
-                "aem": {
+                "xwalk": {
                   "page": {
                     "resourceType": "core/franklin/components/formcomponent/v1/formcomponent",
                     "template": {
@@ -95,7 +95,7 @@
               "title": "Text Area",
               "id": "textarea",
               "plugins": {
-                "aem": {
+                "xwalk": {
                   "page": {
                     "resourceType": "core/franklin/components/formcomponent/v1/formcomponent",
                     "template": {
@@ -110,7 +110,7 @@
               "title": "Number Input",
               "id": "numberinput",
               "plugins": {
-                "aem": {
+                "xwalk": {
                   "page": {
                     "resourceType": "core/franklin/components/formcomponent/v1/formcomponent",
                     "template": {
@@ -191,7 +191,7 @@
           "title": "Form",
           "id": "form",
           "plugins": {
-            "aem": {
+            "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/form/v1/form",
                 "template": {}
