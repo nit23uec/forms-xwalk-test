@@ -99,7 +99,7 @@
                   "page": {
                     "resourceType": "fd/franklin/components/formcomponent/v1/formcomponent",
                     "template": {
-                      "Label": "Text Area",
+                      "label": "Text Area",
                       "fieldType": "text-area"
                     }
                   }
@@ -114,7 +114,7 @@
                   "page": {
                     "resourceType": "fd/franklin/components/formcomponent/v1/formcomponent",
                     "template": {
-                      "Label": "Number Input",
+                      "label": "Number Input",
                       "fieldType": "number-input"
                     }
                   }
