@@ -74,9 +74,16 @@ export function createFieldWrapper(fd, tagName = 'div', labelFn = createLabel) {
     fieldWrapper.dataset.visible = fd.visible;
   }
   fieldWrapper.classList.add('field-wrapper');
+  fieldWrapper.setAttribute('data-aue-type', 'component');
+  fieldWrapper.setAttribute('data-aue-resource', fd.id);
+  fieldWrapper.setAttribute('data-aue-model', fd.fieldType);
+  fieldWrapper.setAttribute('data-aue-label', fd.name);
   if (fd.label && fd.label.value && typeof labelFn === 'function') {
     const label = labelFn(fd);
-    if (label) { fieldWrapper.append(label); }
+    if (label) {
+      fieldWrapper.setAttribute('data-aue-label', fd.label.value);
+      fieldWrapper.append(label);
+    }
   }
   return fieldWrapper;
 }

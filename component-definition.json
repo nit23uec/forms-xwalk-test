@@ -78,14 +78,14 @@
       "components": [
           {
               "title": "Text Input",
-              "id": "textinput",
+              "id": "text-input",
               "plugins": {
                 "xwalk": {
                   "page": {
                     "resourceType": "fd/franklin/components/formcomponent/v1/formcomponent",
                     "template": {
-                      "Label": "Text Input",
-                      "Type": "text"
+                      "label": "Text Input",
+                      "fieldType": "text-input"
                     }
                   }
                 }
@@ -93,14 +93,14 @@
           },
            {
               "title": "Text Area",
-              "id": "textarea",
+              "id": "text-area",
               "plugins": {
                 "xwalk": {
                   "page": {
                     "resourceType": "fd/franklin/components/formcomponent/v1/formcomponent",
                     "template": {
                       "Label": "Text Area",
-                      "Type": "textarea"
+                      "fieldType": "text-area"
                     }
                   }
                 }
@@ -108,14 +108,14 @@
           },
           {
               "title": "Number Input",
-              "id": "numberinput",
+              "id": "number-input",
               "plugins": {
                 "xwalk": {
                   "page": {
                     "resourceType": "fd/franklin/components/formcomponent/v1/formcomponent",
                     "template": {
                       "Label": "Number Input",
-                      "Type": "number"
+                      "fieldType": "number-input"
                     }
                   }
                 }
