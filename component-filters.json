@@ -27,13 +27,22 @@
       "title",
       "hero",
       "cards",
-      "columns"
+      "columns",
+      "form"
     ]
   },
   {
     "id": "cards",
     "components": [
       "card"
+    ]
+  },
+  {
+    "id": "form",
+    "components": [
+      "textinput",
+      "textarea",
+      "numberinput"
     ]
   }
 ]
