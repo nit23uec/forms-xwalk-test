@@ -82,7 +82,7 @@
               "plugins": {
                 "xwalk": {
                   "page": {
-                    "resourceType": "core/franklin/components/formcomponent/v1/formcomponent",
+                    "resourceType": "fd/franklin/components/formcomponent/v1/formcomponent",
                     "template": {
                       "Label": "Text Input",
                       "Type": "text"
@@ -97,7 +97,7 @@
               "plugins": {
                 "xwalk": {
                   "page": {
-                    "resourceType": "core/franklin/components/formcomponent/v1/formcomponent",
+                    "resourceType": "fd/franklin/components/formcomponent/v1/formcomponent",
                     "template": {
                       "Label": "Text Area",
                       "Type": "textarea"
