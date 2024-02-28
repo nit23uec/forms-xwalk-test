@@ -73,6 +73,57 @@
       ]
     },
     {
+      "title": "Form Components",
+      "id": "form-general",
+      "components": [
+          {
+              "title": "Text Input",
+              "id": "text",
+              "plugins": {
+                "aem": {
+                  "page": {
+                    "resourceType": "core/franklin/components/formcomponent/v1/formcomponent",
+                    "template": {
+                      "Label": "Text Input",
+                      "Type": "text"
+                    }
+                  }
+                }
+              }
+          },
+           {
+              "title": "Text Area",
+              "id": "textarea",
+              "plugins": {
+                "aem": {
+                  "page": {
+                    "resourceType": "core/franklin/components/formcomponent/v1/formcomponent",
+                    "template": {
+                      "Label": "Text Area",
+                      "Type": "textarea"
+                    }
+                  }
+                }
+              }
+          },
+          {
+              "title": "Number Input",
+              "id": "numberinput",
+              "plugins": {
+                "aem": {
+                  "page": {
+                    "resourceType": "core/franklin/components/formcomponent/v1/formcomponent",
+                    "template": {
+                      "Label": "Number Input",
+                      "Type": "number"
+                    }
+                  }
+                }
+              }
+          }
+      ]
+    },
+    {
       "title": "Blocks",
       "id": "blocks",
       "components": [
@@ -132,6 +183,18 @@
                   "name": "Card",
                   "model": "card"
                 }
+              }
+            }
+          }
+        },
+        {
+          "title": "Form",
+          "id": "form",
+          "plugins": {
+            "aem": {
+              "page": {
+                "resourceType": "core/franklin/components/form/v1/form",
+                "template": {}
               }
             }
           }
