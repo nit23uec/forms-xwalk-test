@@ -194,7 +194,9 @@
             "xwalk": {
               "page": {
                 "resourceType": "fd/franklin/components/form/v1/form",
-                "template": {}
+                "template": {
+                  "fieldType": "form"
+                }
               }
             }
           }
