@@ -294,8 +294,7 @@ function renderField(fd) {
 }
 
 export async function generateFormRendition(panel, container) {
-  const promises = [];
-  Object.entries(panel[":items"]).forEach(async([_, field]) => {
+  const promises = Object.entries(panel[":items"]).map(async([_, field]) => {
     field.value = field.value ?? '';
     const { fieldType } = field;
     if (fieldType === 'captcha') {
@@ -306,12 +305,12 @@ export async function generateFormRendition(panel, container) {
       const decorator = await componentDecorater(field);
       if (field?.fieldType === 'panel') {
         await generateFormRendition(field, element);
-        promises.push(element);
+        return element;
       }
       if (typeof decorator === 'function') {
-        promises.push(decorator(element, field, container));
+        return decorator(element, field, container);
       }
-      promises.push(element);
+      return element;
     }
     return null;
   });
