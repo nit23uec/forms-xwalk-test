@@ -84,7 +84,7 @@
                   "page": {
                     "resourceType": "core/fd/components/form/textinput/v1/textinput",
                     "template": {
-                      "label": "Text Input",
+                      "jcr:title": "Text Input",
                       "fieldType": "text-input"
                     }
                   }
