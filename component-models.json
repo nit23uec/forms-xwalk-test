@@ -198,33 +198,34 @@
         },
         {
             "component": "text-input",
-            "name": "label",
+            "name": "jcr:title",
             "label": "Label",
             "valueType": "string"
         },
         {
             "component": "text-input",
-            "name": "description",
-            "label": "Description",
-            "valueType": "string"
-        },
-        {
-            "component": "text-input",
             "name": "placeholder",
-            "label": "Placeholder",
+            "label": "Placeholder text",
             "valueType": "string"
         },
         {
             "component": "boolean",
             "name": "visible",
-            "label": "Visible",
-            "valueType": "boolean"
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": true
         },
         {
-
+          "component": "boolean",
+          "name": "enabled",
+          "label": "Enable Component",
+          "valueType": "boolean",
+          "value": true 
+        },
+        {
             "component": "boolean",
             "name": "readOnly",
-            "label": "Read Only",
+            "label": "Read-only",
             "valueType": "boolean"
         },
         {
@@ -238,6 +239,24 @@
             "name": "default",
             "label": "Default Value",
             "valueType": "string"
+        },
+        {
+          "component": "boolean",
+          "name": "unboundFormElement",
+          "label": "Mark as Unbound Form Element",
+          "valueType": "boolean"
+        },
+        {
+          "component": "rich-text",
+          "name": "description",
+          "label": "Help text",
+          "valueType": "string"
+        },
+        {
+          "component": "rich-text",
+          "name": "tooltip",
+          "label": "Short description",
+          "valueType": "string"
         },
         {
             "component": "number",

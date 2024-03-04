@@ -82,7 +82,7 @@
               "plugins": {
                 "xwalk": {
                   "page": {
-                    "resourceType": "fd/franklin/components/formcomponent/v1/formcomponent",
+                    "resourceType": "core/fd/components/form/textinput/v1/textinput",
                     "template": {
                       "label": "Text Input",
                       "fieldType": "text-input"
