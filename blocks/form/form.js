@@ -296,7 +296,8 @@ function renderField(fd) {
 }
 
 export async function generateFormRendition(panel, container) {
-  const promises = Object.entries(panel[":items"]).map(async([_, field]) => {
+  if (panel[":items"]) {
+    const promises = Object.entries(panel[":items"]).map(async([_, field]) => {
     field.value = field.value ?? '';
     const { fieldType } = field;
     if (fieldType === 'captcha') {
@@ -314,14 +315,16 @@ export async function generateFormRendition(panel, container) {
       }
       return element;
     }
+    
     return null;
-  });
+    });
 
-  const children = await Promise.all(promises);
-  container.append(...children.filter((_) => _ != null));
-  const decorator = await componentDecorater(panel);
-  if (typeof decorator === 'function') {
-    return decorator(container, panel);
+    const children = await Promise.all(promises);
+    container.append(...children.filter((_) => _ != null));
+    const decorator = await componentDecorater(panel);
+    if (typeof decorator === 'function') {
+      return decorator(container, panel);
+    }
   }
   return container;
 }
