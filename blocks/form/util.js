@@ -81,6 +81,7 @@ export function createFieldWrapper(fd, tagName = 'div', labelFn = createLabel) {
   if (fd.label && fd.label.value && typeof labelFn === 'function') {
     const label = labelFn(fd);
     if (label) {
+      label.setAttribute("data-aue-prop", "jcr:title");
       fieldWrapper.setAttribute('data-aue-label', fd.label.value);
       fieldWrapper.append(label);
     }
