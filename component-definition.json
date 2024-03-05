@@ -91,35 +91,35 @@
                 }
               }
           },
-           {
-              "title": "Text Area",
-              "id": "text-area",
-              "plugins": {
-                "xwalk": {
-                  "page": {
-                    "resourceType": "fd/franklin/components/formcomponent/v1/formcomponent",
-                    "template": {
-                      "label": "Text Area",
-                      "fieldType": "text-area"
-                    }
-                  }
-                }
-              }
-          },
           {
               "title": "Number Input",
               "id": "number-input",
               "plugins": {
                 "xwalk": {
                   "page": {
-                    "resourceType": "fd/franklin/components/formcomponent/v1/formcomponent",
+                    "resourceType": "core/fd/components/form/numberinput/v1/numberinput",
                     "template": {
-                      "label": "Number Input",
+                      "jcr:title": "Number Input",
                       "fieldType": "number-input"
                     }
                   }
                 }
               }
+          },
+          {
+            "title": "Panel",
+            "id": "panel",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/fd/components/form/panelcontainer/v1/panelcontainer",
+                  "template": {
+                    "jcr:title": "Panel",
+                    "fieldType": "panel"
+                  }
+                }
+              }
+            }
           }
       ]
     },
@@ -195,7 +195,8 @@
               "page": {
                 "resourceType": "fd/franklin/components/form/v1/form",
                 "template": {
-                  "fieldType": "form"
+                  "fieldType": "form",
+                  "fd:version": "2.1"
                 }
               }
             }
