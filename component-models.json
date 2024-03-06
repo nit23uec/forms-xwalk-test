@@ -191,9 +191,9 @@
     "fields": [
         {
             "component": "container",
-            "name": "Basic",
+            "name": "basic",
             "label": "Basic",
-            "collapsible": true,
+            "collapsible": false,
             "fields": [
               {
                 "component": "text-input",
@@ -252,7 +252,7 @@
             "component": "container",
             "name": "help",
             "label": "Help Content",
-            "collapsible": false,
+            "collapsible": true,
             "fields": [ 
               {
                 "component": "text-area",
@@ -272,7 +272,7 @@
             "component": "container",
             "name": "validation",
             "label": "Validation",
-            "collapsible": false,
+            "collapsible": true,
             "fields": [
               {
                 "component": "boolean",
