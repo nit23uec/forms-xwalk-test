@@ -252,45 +252,49 @@
             "component": "container",
             "name": "help",
             "label": "Help Content",
-            "collapsible": true   
-        },
-        {
-            "component": "rich-text",
-            "name": "description",
-            "label": "Help text",
-            "valueType": "string"
-        },
-        {
-            "component": "rich-text",
-            "name": "tooltip",
-            "label": "Short description",
-            "valueType": "string"
+            "collapsible": false,
+            "fields": [ 
+              {
+                "component": "text-area",
+                "name": "description",
+                "label": "Help text",
+                "valueType": "string"
+              },
+              {
+                "component": "text-area",
+                "name": "tooltip",
+                "label": "Short description",
+                "valueType": "string"
+              }
+            ]
         },
         {
             "component": "container",
             "name": "validation",
             "label": "Validation",
-            "collapsible": true   
-        },
-        {
-            "component": "boolean",
-            "name": "required",
-            "label": "Required",
-            "valueType": "boolean"
-        },
-        {
-            "component": "number",
-            "name": "minimum",
-            "label": "Minimum Value",
-            "valueType": "number",
-            "description": "Minimum length of the text in the field"
-        },
-        {
-            "component": "number",
-            "name": "maximum",
-            "label": "Maximum Value",
-            "valueType": "number",
-            "description": "Maximum length of the text in the field"
+            "collapsible": false,
+            "fields": [
+              {
+                "component": "boolean",
+                "name": "required",
+                "label": "Required",
+                "valueType": "boolean"
+              },
+              {
+                "component": "number",
+                "name": "minimum",
+                "label": "Minimum Value",
+                "valueType": "number",
+                "description": "Minimum length of the text in the field"
+              },
+              {
+                "component": "number",
+                "name": "maximum",
+                "label": "Maximum Value",
+                "valueType": "number",
+                "description": "Maximum length of the text in the field"
+              }
+            ]
         }
     ]
   }
