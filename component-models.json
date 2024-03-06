@@ -255,13 +255,13 @@
             "collapsible": true,
             "fields": [ 
               {
-                "component": "text-area",
+                "component": "richtext",
                 "name": "description",
                 "label": "Help text",
                 "valueType": "string"
               },
               {
-                "component": "text-area",
+                "component": "richtext",
                 "name": "tooltip",
                 "label": "Short description",
                 "valueType": "string"
