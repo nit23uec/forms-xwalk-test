@@ -193,58 +193,60 @@
             "component": "container",
             "name": "Basic",
             "label": "Basic",
-            "collapsible": true   
-        },
-        {
-            "component": "text-input",
-            "name": "name",
-            "label": "Name",
-            "valueType": "string",
-            "required": true
-        },
-        {
-            "component": "text-input",
-            "name": "jcr:title",
-            "label": "Label",
-            "valueType": "string"
-        },
-        {
-            "component": "text-input",
-            "name": "placeholder",
-            "label": "Placeholder text",
-            "valueType": "string"
-        },
-        {
-            "component": "boolean",
-            "name": "visible",
-            "label": "Show Component",
-            "valueType": "boolean",
-            "value": true
-        },
-        {
-            "component": "boolean",
-            "name": "enabled",
-            "label": "Enable Component",
-            "valueType": "boolean",
-            "value": true 
-        },
-        {
-            "component": "boolean",
-            "name": "readOnly",
-            "label": "Read-only",
-            "valueType": "boolean"
-        },
-        {
-            "component": "text-input",
-            "name": "default",
-            "label": "Default Value",
-            "valueType": "string"
-        },
-        {
-            "component": "boolean",
-            "name": "unboundFormElement",
-            "label": "Mark as Unbound Form Element",
-            "valueType": "boolean"
+            "collapsible": true,
+            "fields": [
+              {
+                "component": "text-input",
+                "name": "name",
+                "label": "Name",
+                "valueType": "string",
+                "required": true
+              },
+              {
+                "component": "text-input",
+                "name": "jcr:title",
+                "label": "Label",
+                "valueType": "string"
+              },
+              {
+                "component": "text-input",
+                "name": "placeholder",
+                "label": "Placeholder text",
+                "valueType": "string"
+              },
+              {
+                "component": "boolean",
+                "name": "visible",
+                "label": "Show Component",
+                "valueType": "boolean",
+                "value": true
+              },
+              {
+                "component": "boolean",
+                "name": "enabled",
+                "label": "Enable Component",
+                "valueType": "boolean",
+                "value": true 
+              },
+              {
+                "component": "boolean",
+                "name": "readOnly",
+                "label": "Read-only",
+                "valueType": "boolean"
+              },
+              {
+                "component": "text-input",
+                "name": "default",
+                "label": "Default Value",
+                "valueType": "string"
+              },
+              {
+                "component": "boolean",
+                "name": "unboundFormElement",
+                "label": "Mark as Unbound Form Element",
+                "valueType": "boolean"
+              }
+            ]
         },
         {
             "component": "container",
