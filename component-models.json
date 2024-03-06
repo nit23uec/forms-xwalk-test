@@ -190,6 +190,12 @@
     "id": "text-input",
     "fields": [
         {
+            "component": "container",
+            "name": "Basic",
+            "label": "Basic",
+            "collapsible": true   
+        },
+        {
             "component": "text-input",
             "name": "name",
             "label": "Name",
@@ -216,22 +222,16 @@
             "value": true
         },
         {
-          "component": "boolean",
-          "name": "enabled",
-          "label": "Enable Component",
-          "valueType": "boolean",
-          "value": true 
+            "component": "boolean",
+            "name": "enabled",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": true 
         },
         {
             "component": "boolean",
             "name": "readOnly",
             "label": "Read-only",
-            "valueType": "boolean"
-        },
-        {
-            "component": "boolean",
-            "name": "required",
-            "label": "Required",
             "valueType": "boolean"
         },
         {
@@ -241,22 +241,40 @@
             "valueType": "string"
         },
         {
-          "component": "boolean",
-          "name": "unboundFormElement",
-          "label": "Mark as Unbound Form Element",
-          "valueType": "boolean"
+            "component": "boolean",
+            "name": "unboundFormElement",
+            "label": "Mark as Unbound Form Element",
+            "valueType": "boolean"
         },
         {
-          "component": "rich-text",
-          "name": "description",
-          "label": "Help text",
-          "valueType": "string"
+            "component": "container",
+            "name": "help",
+            "label": "Help Content",
+            "collapsible": true   
         },
         {
-          "component": "rich-text",
-          "name": "tooltip",
-          "label": "Short description",
-          "valueType": "string"
+            "component": "rich-text",
+            "name": "description",
+            "label": "Help text",
+            "valueType": "string"
+        },
+        {
+            "component": "rich-text",
+            "name": "tooltip",
+            "label": "Short description",
+            "valueType": "string"
+        },
+        {
+            "component": "container",
+            "name": "validation",
+            "label": "Validation",
+            "collapsible": true   
+        },
+        {
+            "component": "boolean",
+            "name": "required",
+            "label": "Required",
+            "valueType": "boolean"
         },
         {
             "component": "number",
